@@ -1,0 +1,24 @@
+{
+    "name": "fabianmichael/imagekit",
+    "description": "Color-managed thumbnails and image optimization for Kirby 3.",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabian Michael",
+            "email": "hallo@fabianmichael.de"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1",
+        "spatie/image-optimizer": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "FabianMichael\\ImageKit\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

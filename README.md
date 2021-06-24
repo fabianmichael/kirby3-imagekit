@@ -28,7 +28,7 @@ Composer setup is not yet available during early development.
 
 ⚠️ As the GD library does not support color management, you need to use the `im` driver in order to make this plugin work.
 
-Your server needs to have a recent version of ImageMagick available on the command line that was compiled with LittleCMS for color management support. You can check this by logging into to server via SSH and type `convert --version` (assuming, that ImageMagick is in your PATH). This should give you a result like this:
+Your server needs to have a recent version of ImageMagick available on the command line that was compiled with [LittleCMS](https://www.littlecms.com/) for color management support. You can check this by logging into to server via SSH and type `convert --version` (assuming, that ImageMagick is in your PATH). This should give you a result like this:
 
 ```
 Version: ImageMagick 7.0.11-14 Q16 x86_64 2021-05-31 https://imagemagick.org

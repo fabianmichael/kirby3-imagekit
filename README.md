@@ -2,7 +2,7 @@
 
 > This is not directly related for ImageKit for Kirby 2, but based on the same idea of improving Kirby’s built-in image processing capabilities.
 
-Adds support for color-managed thumbnails to Kirby 3. It does so by converting all thumbnails to sRGB color space and embeds an ICC v2 profile for best compatibility across devices and screens. It also provides basic optional image optimization.
+Adds support for color-managed thumbnails to [Kirby 3](https://getkirby.com/). It does so by converting all thumbnails to sRGB color space and embeds an ICC v2 profile for best compatibility across devices and screens. It also provides basic (optional) image size optimization. In the future, it might also support more fine-grained control over the output profile and rendering intend.
 
 ⚠️ This is an experimental plugin and probably far from being complete. As Kirby’s built-in image processing will probably get an overhaul in the foreseeable future, this might also be just an intermediate solution.
 

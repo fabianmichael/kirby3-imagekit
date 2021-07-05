@@ -20,6 +20,34 @@ class ImageMagick extends OriginalImageMagick
         return sprintf($options['bin'] . ' "%s" -profile "%s"', $file, $profile);
     }
 
+    /**
+     * Returns additional default parameters for imagemagick
+     *
+     * @return array
+     */
+    protected function defaults(): array
+    {
+        return parent::defaults() + [
+            'sharpen' => 0,
+        ];
+    }
+
+    /**
+     * Makes sure to not process too many images at once
+     * which could crash the server
+     *
+     * @param string $file
+     * @param array $options
+     * @return string
+     */
+    protected function save(string $file, array $options): string
+    {
+        $sharpen = $options['sharpen'] > 0
+            ? sprintf('-sharpen 0x%F ', $options['sharpen'])
+            : '';
+
+        return $sharpen . parent::save($file, $options);
+    }
 
     /**
      * Removes all metadata from the image, but keep the icc profile.

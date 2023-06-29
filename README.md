@@ -1,4 +1,4 @@
-**Good news:** Since the latest versions Kirby have supported ICC profiles for quite a while now, this is now archived.
+**🎉 Good news:** Since the latest versions Kirby have supported ICC profiles for quite a while now, this is plugin is now obsolete!
 
 # ImageKit for Kirby 3
 

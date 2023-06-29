@@ -1,3 +1,5 @@
+**Good news:** Since the latest versions Kirby have supported ICC profiles for quite a while now, this is now archived.
+
 # ImageKit for Kirby 3
 
 > This is not directly related for ImageKit for Kirby 2, but based on the same idea of improving Kirby’s built-in image processing capabilities.
